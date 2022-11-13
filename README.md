@@ -30,7 +30,7 @@ We need to create a new integration for our user, so we need to give the ability
 
 After saving, the user needs to have immediate feedback that the integration is connected and no more actions are needed.
 
-Once the user has all the settings up, the cloud function (no need to deploy) needs to handle some external API calls. You can choose one that requires authentication with api key or feel free to use [https://github.com/open-pay/openpay-node](https://github.com/open-pay/openpay-node) (no need to create an account) to retrieve all payments from the user account using the API key configured before in the account.  
+Once the user has all the settings up, the cloud function (no need to deploy) needs to handle some external API calls. You can choose one that requires authentication with api key or feel free to use [https://github.com/open-pay/openpay-node](https://github.com/open-pay/openpay-node) (no need to create an account) to retrieve all payments (openpay.charges) from the user account using the API key configured before in the account.  
  
 
 #### Instructions
@@ -39,7 +39,7 @@ Once the user has all the settings up, the cloud function (no need to deploy) ne
 *   Deliver in a .zip file or access to a github repo.
 
 #### Goal:
-
+ 
 *   Create a settings page - 
 *   Show realtime updates for the user information in settings page - 
 *   Show a PopUp to add the required configuration - 
