@@ -58,3 +58,5 @@ Once the user has all the settings up, the cloud function (no need to deploy) ne
 [https://github.com/FirebaseExtended/reactfire](https://github.com/FirebaseExtended/reactfire)
 
 [https://bradfrost.com/blog/post/atomic-web-design/](https://bradfrost.com/blog/post/atomic-web-design/)
+
+[https://gigstack.pro](https://gigstack.pro)
