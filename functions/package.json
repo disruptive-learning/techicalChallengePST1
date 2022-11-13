@@ -1,0 +1,19 @@
+{
+  "name": "gigstack_technicall_challenge_server",
+  "version": "1.0.0",
+  "description": "ReadMe file on github https://github.com/disruptive-learning/techicalChallengePST1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "firebase-admin": "^11.2.1",
+    "firebase-functions": "^4.0.2"
+  }
+}
