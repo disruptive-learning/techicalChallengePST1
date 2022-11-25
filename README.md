@@ -1,4 +1,4 @@
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/animations/0db8b78e49d9ef8751f945bfdc73352abfc3370e1a06346d.gif)
+![](https://gigstack.pro/images/gigstack-pro.png)
 
 ### About Gigstack
 
@@ -13,7 +13,7 @@ The goal for this technical challenge is to prove the ability to work with our s
 #### Requirements:
 
 *   Use ant.design to design the components.
-*   We use firebase functions for our server. Please create functions in the required format (no need to deploy), and use http.onRequest and authenticate with token.
+*   We use firebase functions for our server. Please create functions in the required format (no need to deploy), and use http.onRequest and authenticate with token (very important to show how you are authenticating the request).
 *   Follow [atomic design](https://bradfrost.com/blog/post/atomic-web-design/) pattern.
 *   Use FirebaseFirestore to store data.
 *   Use FirebaseAuth to authenticate a user.
@@ -28,7 +28,7 @@ We need to create a new integration for our user, so we need to give the ability
 *   Email
 *   API Key
 
-After saving, the user needs to have immediate feedback that the integration is connected and no more actions are needed.
+After saving, the user needs to have immediate feedback that the integration is connected and no more actions are needed. (we are not deploying the server, please make direct update to the db)
 
 Once the user has all the settings up, the cloud function (no need to deploy) needs to handle some external API calls. You can choose one that requires authentication with api key or feel free to use [https://github.com/open-pay/openpay-node](https://github.com/open-pay/openpay-node) (no need to create an account) to retrieve all payments (openpay.charges) from the user account using the API key configured before in the account.  
  
@@ -41,10 +41,10 @@ Once the user has all the settings up, the cloud function (no need to deploy) ne
 #### Goal:
  
 *   Create a settings page - 
-*   Show realtime updates for the user information in settings page - 
+*   Show realtime updates for the user information in settings page (we are not deploying the server, so please make a un update to the user db) - 
 *   Show a PopUp to add the required configuration - 
 *   Show the index.js file with the cloud function(s) (no need to deploy) -
-*   Document your code -
+*   Document your code (very important) -
 
 #### Resources:
 
