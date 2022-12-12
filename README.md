@@ -41,7 +41,7 @@ Once the user has all the settings up, the cloud function (no need to deploy) ne
 #### Goal:
  
 *   Create a settings page - 
-*   Show realtime updates for the user information in settings page (we are not deploying the server, so please make a un update to the user db) - 
+*   Show realtime updates for the user information in settings page (we are not deploying the server, so please make a un update to the user db and show the update in the UI in real time) - 
 *   Show a PopUp to add the required configuration - 
 *   Show the index.js file with the cloud function(s) (no need to deploy) -
 *   Document your code (very important) -
